@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BACKGROUND">
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/transferred_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Current users"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginRight="10dp">
+
+        <ImageButton
+            android:id="@+id/transaction_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/transac_foreground"
+            android:background="@color/BACKGROUND"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <GridView
+            android:layout_below="@id/title"
+            android:columnWidth="10dp"
+            android:minWidth="200dp"
+            android:id="@+id/gridview_for_users"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="1">
+        </GridView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/add"
+        android:layout_alignRight="@id/gridview_for_users"
+        app:backgroundTint="@color/colorPrimaryDark" />
+
+</RelativeLayout>

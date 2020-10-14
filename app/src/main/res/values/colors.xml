@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2ECC00</color>
+
+    <!--  upbar android theme  -->
+    <color name="colorPrimaryDark">#FF9800</color>
+    <!--  upbar android theme  -->
+
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="color_main">#2ECC00</color>
+    <color name="color_main_dark">#009a00</color>
+    <color name="color_main_light">#72ff4c</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="color_things">#1ED425</color>
+
+    <color name="PURPLE" >#9c2fea</color>
+    <color name="ORANGE" >#FFC107</color>
+
+    <color name="BACKGROUND">#141B42</color>
+
+    <color name="RED">#F44336</color>
+    <color name="GREEN">#8BC34A</color>
+    <color name="fadedGray">#F1EDED</color>
+    <color name="fadedBlack">#635A5A</color>
+
+
+</resources>
